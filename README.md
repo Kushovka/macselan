@@ -1,16 +1,54 @@
-# React + Vite
+# 👉 [Лендинг](macselan.netlify.app) / React + Tailwind CSS + React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+Учебный проект: Простой лендинг-приложение на React с авторизацией и демонстрацией работы с API.
+<br/>
+Реализован как тестовое задание на позицию фронтенд-разработчика в компанию **Macselan**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Особенности
 
-## Expanding the ESLint configuration
+- Ввод email, пароля и имени.
+- Сохранение авторизации и имени в localStorage.
+- Переключение между формой входа и регистрации с плавной анимацией.
+- Доступ к странице с погодой только для авторизованных пользователей.
+- Редирект на страницу логина при попытке открыть защищённый маршрут без авторизации.
+- Подключение к WeatherAPI для получения текущей погоды по городу.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Стек проекта
+ <br/>
+ 
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<br/>
+
+
+## 📦 Установка и запуск
+
+```bash
+# Клонируем репозиторий
+git clone https://github.com/Kushovka/macselan.git
+
+# Переходим в папку проекта
+cd macselan
+
+# Устанавливаем зависимости
+npm install
+
+# Запускаем проект
+npm run dev
+```
+
+## 🚀 Деплой
+
+Проект задеплоен на [Netlify](https://www.netlify.com/).  
+
+🌐 **Демо:** [https://uristdlialudey.netlify.app/](macselan.netlify.app)
+<br/>
+
+Деплой происходит автоматически при пуше в основную ветку (`master`).
+
+
+
