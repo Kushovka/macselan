@@ -1,5 +1,6 @@
-# 👉 [Лендинг](macselan.netlify.app) / React + Tailwind CSS + React Router
+# 👉 [Лендинг](macselan.netlify.app) - React + Tailwind CSS + React Router
 
+<img width="1449" height="812" alt="Без имени-1" src="https://github.com/user-attachments/assets/4e68dd12-b784-4849-8bce-919d91620850" />
 
 
 
