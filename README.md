@@ -46,7 +46,7 @@ npm run dev
 
 Проект задеплоен на [Netlify](https://www.netlify.com/).  
 
-🌐 **Демо:** [https://uristdlialudey.netlify.app/](macselan.netlify.app)
+🌐 **Демо:** [macselan.netlify.app](macselan.netlify.app)
 <br/>
 
 Деплой происходит автоматически при пуше в основную ветку (`master`).
